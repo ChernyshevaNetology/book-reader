@@ -1,0 +1,1 @@
+export { IconSet } from './icon-set.tsx'

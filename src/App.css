@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#root {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+/* styles for text color icons */
+.text_color_black {
+  background: #000;
+}
+
+.text_color_gray {
+  background: grey;
+}
+
+.text_color_whitesmoke {
+  background: whitesmoke;
+}
+/* styles for book text color */
+.text-color_black {
+  color: #000;
+}
+
+.text-color_gray {
+  color: grey;
+}
+
+.text-color_whitesmoke {
+  color: whitesmoke;
+}
+
+.bg_color_black {
+  background: #000;
+}
+
+.bg_color_gray {
+  background: grey;
+}
+
+.bg_color_white {
+  background: white;
+}
+
+.text-size {
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  width: 25px;
+  height: 25px;
+  padding: 2px 6px;
+  font-size: 16px;
+  line-height: 16px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-weight_light {
+  font-weight: 200;
+}
+
+.font-weight-normal {
+  font-weight: 300;
+}
+
+.font-weight_bold {
+  font-weight: 500;
+}
+
+.font-style_active,
+.font-weight_active {
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+}
+
+.font-style_italic {
+  font-style: italic;
+}
+
+.font-style_underline {
+  text-decoration: underline;
+}
+
+.font-style_capital {
+  text-transform: uppercase;
+}
+
+.book__controls {
+  background: rgb(63, 63, 63);
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.book__controls a {
+  cursor: pointer;
+}
+
+.book__control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+
+.color_active {
+  box-shadow: 0 0 5px white;
+  border: 1px solid gray;
+}
+
+.font-size {
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 1px 6px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-size_small {
+  font-size: 12px;
+}
+
+.font-size_big {
+  font-size: 20px;
+}
+
+.font-size_active {
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+}
+
+.book {
+  font-family: "Roboto", serif;
+}
+
+.book__content {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.book p:first-letter {
+  font-size: 28px;
+}
+
+.text-style_light {
+  font-weight: 100;
+}
+
+.text-style_bold {
+  font-weight: 600;
+}
+
+.text-style_italic {
+  font-style: italic;
+}
+
+.text-style_underline {
+  text-decoration: underline;
+}
+
+
+
